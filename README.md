@@ -2,7 +2,7 @@
 R and Statistics **DRAFT**
 
 ## Linear Regression to Predict MPG
-<img src="static/resources/multi-linear.png" alt="Multi Linear Regression" width="500"/> <br />
+<img src="static/resources/multi-linear.png" alt="Multi Linear Regression" width="600"/> <br />
 - This multi-linear regression model based on data representing 50 samples of 6 variables, there is significant correlation based on vehicle length and ground clearance effect on MPG to consider as key features of MPG.
 <br />
 
