@@ -3,12 +3,12 @@ R and Statistics **DRAFT**
 
 ## Linear Regression to Predict MPG
 <img src="static/resources/multi-linear.png" alt="Multi Linear Regression" width="600"/> <br />
-- This multi-linear regression model based on data representing 50 samples of 6 variables, there is significant correlation based on vehicle length and ground clearance effect on MPG to consider as key features of MPG.
+- Multi-linear regression model based on data representing 50 samples of 6 variables. Found significant correlation of vehicle length and ground clearance to effect MPG. There is a minor correlation to MPG with vehicle weight as well, however it does not as fall within standard tolerance.
 <br />
 
 ## Summary Statistics on Suspension Coils
 <img src="static/resources/coil_analysis.png" alt="Multi Linear Regression" width="600"/> <br />
-- This grouped summary showing 3 manufacturing lots and the consistency of suspension coils show inconsistencies in performance of locations
+- Grouped summary showing the 3 manufacturing lots and consistency results of suspension coil production accross these locations.
 <br />
 
 ## T-Tests on Suspension Coils
@@ -17,10 +17,10 @@ R and Statistics **DRAFT**
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 In your description, address the following questions:
-  -What metric or metrics are you going to test?
-  -What is the null hypothesis or alternative hypothesis?
-  -What statistical test would you use to test the hypothesis? And why?
-  -What data is needed to run the statistical test?
+  - What metric or metrics are you going to test?
+  - What is the null hypothesis or alternative hypothesis?
+  - What statistical test would you use to test the hypothesis? And why?
+  - What data is needed to run the statistical test?
   
 The statistical study design has the following:
 A metric to be tested is mentioned (5 pt)
