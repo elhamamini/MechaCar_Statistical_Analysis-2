@@ -10,3 +10,5 @@ R and Statistics **DRAFT**
 <img src="static/resources/coil_analysis.png" alt="Multi Linear Regression" width="600"/> <br />
 - This grouped summary showing 3 manufacturing lots and the consistency of suspension coils show inconsistencies in performance of locations
 <br />
+
+## T-Tests on Suspension Coils
