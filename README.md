@@ -15,8 +15,8 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
 ## Linear Regression to Predict MPG
 
 <img src="static/resources/multi-linear.png" alt="Multi Linear Regression" width="600"/> <br /> 
-- This multi-linear regression model is run on six data points of 50 prototype vehicles as provided in <code> MechaCar.csv</code>. Found are significant correlations of <i>vehicle length</i> and <i>ground clearance</i> to effect MPG. There is minor correlation to MPG with vehicle weight as well -- however, it does not fall within tolerance to be considered a consequential contributor at this time. There is a high correlation with the overall MPG coefficient in the intercept vector to conclude there are other data points not present.
-- The slope of this model is not considered to be zero, due to an extremely small p-value as shown in the results. This determines that the null hypothesis should be rejected.
+- This multi-linear regression model is run on six data points of 50 prototype vehicles as provided in <code>MechaCar.csv</code>. Found are significant correlations of <b><i>vehicle length</i></b> and <b><i>ground clearance</i></b> to effect MPG. There is minor correlation to MPG with vehicle weight as well -- however, it does not fall within tolerance to be considered a consequential contributor at this time. There is a high correlation with MPG coefficient intercept to suggest there could be other data points that are not presented here.
+- The slope of the linear model is not considered to be zero, as the p-value is lower than any level of importance. Therefore the null hypothesis is rejected. The the relationship between our variables and the miles per gallon is more than chance.
 - Analysis suggests with the results above, and an r-squared result of better than 71%, this model will provide effective MPG predictions of MechaCar prototypes.
 <br />  
   
