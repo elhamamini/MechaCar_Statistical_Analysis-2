@@ -22,7 +22,7 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
   
 ## Summary Statistics on Suspension Coils
 <img src="static/resources/coil_analysis.png" alt="Multi Linear Regression" width="600"/> <br />
-- When looked at as a whole, variance is within the 100 psi as per company policy. This is misleading as Lot 3 is well out of range with a variance of 170+. This is obviously well out of tolerance and thus the single greatest contributor to negative drag on overall performance.<br />
+- When looked at as a whole, variance is within the 100 psi as per company policy. This is misleading as Lot 3 is well out of range with a variance of 170+; thus the single greatest contributor to negative drag on overall performance.<br />
 
 ## T-Tests on Suspension Coils 
 -   **Overall** manufacturing suspension coils manufacturing shows that not statistically different from the population mean. P-value is within tolerance to reject  null hypothesis.<br />
