@@ -1,12 +1,12 @@
 # MechaCar Statistical Analysis
 
 Analyst: Stan Misina <br />
-IDE: RStudio Version 1.4.1717 <br />
-R: Version 4.1.1
+<i>IDE: RStudio Version 1.4.1717 <br />
+R: Version 4.1.1</i>
 
 Data Provided: <br />
-MechaCar_mpg.csv <br />
-Suspension_Coil.csv<br />
+<i>MechaCar_mpg.csv <br />
+Suspension_Coil.csv</i><br />
 
 ## Linear Regression to Predict MPG
 
@@ -19,12 +19,14 @@ Suspension_Coil.csv<br />
 
 - Grouped total summary of the median, mean, variance, and standard deviation for suspension coil manufacture. The consistency results of the three individual lots are broken out for individual review. 
 - Lot 1 has performed strongest of the three locations. Consistency not seen in either of the other plants and the shallowest variances. 
-- Lot 2 shows good mean and median results; however, their variances are suspect. This means that looking at the entire population of parts is not sufficient. The individual pieces are not consistent.
+- Lot 2 shows good mean and median results; however, their variances are suspect. Considering the entire population of parts is not sufficient to ascertain performance. The individual pieces are not consistent.
 - Lot 3 has not met any of company standard toleration in manufacturing this part. Inspection of processes, personnel, machinery, and tools is recommended. This location's metrics have certainly changed the performance of the entire company negatively.<br />
 
 ## T-Tests on Suspension Coils
-
-- DRAFT tbd
+![ttest_all](static/resources/ttest_all.png)
+![ttest_all](static/resources/ttest_lot1.png)
+![ttest_all](static/resources/ttest_lot2.png)
+![ttest_all](static/resources/ttest_lot3.png)
 
 ## Study Design: MechaCar vs Competition
 
