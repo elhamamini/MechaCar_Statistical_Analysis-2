@@ -37,9 +37,8 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
 -   Lot 2 shows good mean and median results; however, variances are suspect. Considering the entire population of parts is not sufficient to ascertain performance. The individual pieces are not consistent.<br />
 <img src="static/resources/ttest_lot3.png" alt="Summary Statistics on Suspension Coils Lot 3" width="600"/> <br />
 -   Lot 3 has not met any of company standard toleration in manufacturing this part. Inspection of processes, personnel, machinery, and tools is recommended. This location's metrics have certainly changed the performance of the entire company negatively.  <br />
+<br />
 
-
-___  
 ## Study Design: MechaCar vs Competition
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. In your description, address the following questions: - What metric or metrics are you going to test? - What is the null hypothesis or alternative hypothesis? - What statistical test would you use to test the hypothesis? And why? - What data is needed to run the statistical test?
