@@ -6,7 +6,7 @@ Data Provided: <br /> <i>MechaCar_mpg.csv <br /> Suspension_Coil.csv</i><br />
 
 --- 
 # Overview
-AutosRUS is reviewing statistical data points in the manufacturing process to find opportunities where higher consistency. Analysts have been tasked to:
+AutosRUS is reviewing statistical data points in the manufacturing process to find opportunities for higher consistency. Analysts have been tasked to:
   - review data points gathered from prototype vehicles to determine predictable MPG
   - provide summary statistics for suspension coil manufacturing in whole and by individual manufacturing locations
   - using T-Test models, provide insight to consistancy measures for this finished part
@@ -24,19 +24,20 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
 ## Summary Statistics on Suspension Coils
 
 <img src="static/resources/coil_analysis.png" alt="Multi Linear Regression" width="600"/> <br />
--   Grouped total summary of the median, mean, variance, and standard deviation for suspension coil manufacture. The consistency results of the three individual lots are broken out for individual review.
--   Lot 1 has performed strongest of the three locations. Consistency not seen in either of the other plants and the shallowest variances.
--   Lot 2 shows good mean and median results; however, variances are suspect. Considering the entire population of parts is not sufficient to ascertain performance. The individual pieces are not consistent.
--   Lot 3 has not met any of company standard toleration in manufacturing this part. Inspection of processes, personnel, machinery, and tools is recommended. This location's metrics have certainly changed the performance of the entire company negatively.  
-<br />
+-   Grouped total summary of the median, mean, variance, and standard deviation for suspension coil manufacture. The process as in place, does meet the under 100 psi variance established by the company; however, the consistency results of the three individual lots are broken out for individual review.<br />
 
 ## T-Tests on Suspension Coils 
 
 <br />
 <img src="static/resources/ttest_all.png" alt="Summary Statistics on Suspension Coils" width="450"/><br />
+<br />
 <img src="static/resources/ttest_lot1.png" alt="Summary Statistics on Suspension Coils Lot 1" width="600"/> <br />
+-   Lot 1 has performed strongest of the three locations. Consistency not seen in either of the other plants and the shallowest variances.<br />
 <img src="static/resources/ttest_lot2.png" alt="Summary Statistics on Suspension Coils Lot 2" width="600"/> <br />
-<img src="static/resources/ttest_lot3.png" alt="Summary Statistics on Suspension Coils Lot 3" width="600"/> <br />   
+-   Lot 2 shows good mean and median results; however, variances are suspect. Considering the entire population of parts is not sufficient to ascertain performance. The individual pieces are not consistent.<br />
+<img src="static/resources/ttest_lot3.png" alt="Summary Statistics on Suspension Coils Lot 3" width="600"/> <br />
+-   Lot 3 has not met any of company standard toleration in manufacturing this part. Inspection of processes, personnel, machinery, and tools is recommended. This location's metrics have certainly changed the performance of the entire company negatively.  <br />
+
 
 ___  
 ## Study Design: MechaCar vs Competition
