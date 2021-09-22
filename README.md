@@ -16,7 +16,7 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
 
 <img src="static/resources/multi-linear.png" alt="Multi Linear Regression" width="600"/> <br /> 
 
-- This is a multi-linear regression model on six data points of 50 prototype vehicles. Found significant correlation of <i>vehicle length</i> and <i>ground clearance</i> to effect MPG. There is minor correlation to MPG with vehicle weight as well; however, it does not fall within tolerance to be considered a consequential contributor at this time. There is a high correlation with the overall MPG coefficient in the intercept vector to conclude there are other data points not present.
+- This is multi-linear regression model run on six data points of 50 prototype vehicles. Found are significant correlations of <i>vehicle length</i> and <i>ground clearance</i> to effect MPG. There is minor correlation to MPG with vehicle weight as well; however, it does not fall within tolerance to be considered a consequential contributor at this time. There is a high correlation with the overall MPG coefficient in the intercept vector to conclude there are other data points not present.
 - The slope of this model cannot be considered to be zero, due to an extremely small p-value as shown in the results. This determines that the null hypothesis should not be considered.
 - Analysis suggests the results above, and an r-sqared of better than 71%, this model will provide effective MPG predictions of MechaCar prototypes.
 <br />  
