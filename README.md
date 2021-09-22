@@ -26,7 +26,7 @@ Data Provided: <br /> <i>MechaCar_mpg.csv <br /> Suspension_Coil.csv</i><br />
 ## T-Tests on Suspension Coils 
 
 <br />
-<img src="static/resources/ttest_all.png" alt="Summary Statistics on Suspension Coils" width="400"/> 
+<img src="static/resources/ttest_all.png" alt="Summary Statistics on Suspension Coils" width="500"/> 
 
 <img src="static/resources/ttest_lot1.png" alt="Summary Statistics on Suspension Coils Lot 1" width="600"/> <br />
 
