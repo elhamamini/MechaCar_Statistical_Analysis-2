@@ -12,7 +12,9 @@ Data Provided: MechaCar_mpg.csv Suspension_Coil.csv
 ## Summary Statistics on Suspension Coils
 
 <img src="static/resources/coil_analysis.png" alt="Multi Linear Regression" width="600"/> <br />
-- Grouped summary showing the 3 manufacturing lots and consistency results of suspension coil production accross these locations. <br />
+- Grouped summary showing the total company showing the median, mode, variance, and standard deviation for suspension coil manufacture. The consistency results of the three individual lots are broken out for individual review. 
+<br />
+Lot 3 has not met any of the company standard toleration in manufacturing this part. Further analysis and inspection of processes, personnel, machinery, and tools is recommended.<br />
 
 ## T-Tests on Suspension Coils
 
