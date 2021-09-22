@@ -6,8 +6,12 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 
 # Suspension Coil Analysis
 Suspension_Coil <- read_csv("static/csv/Suspension_Coil.csv", show_col_types = FALSE)
-summarize_coil_data <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
-View(summarize_coil_data)
+summarize_coil_data_all <- Suspension_Coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+summarize_coil_data_all$Manufacturing_Lot <- "TOTAL"
+# summarize_coil_data_all <- summarize_coil_data_all.add_column(Manufacturing_Lot = 'TOTAL',.before = 1)
+summarize_coil_data_lots <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
+compound_summary <- cbind(summarize_coil_data_all, summarize_coil_data_lots)
+View(compound_summary)
 
 # T-Tests on Suspension Coils - all lots
 t.test(Suspension_Coil$PSI, mu=mean(Suspension_Coil$PSI))
