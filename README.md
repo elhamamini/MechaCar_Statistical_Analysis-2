@@ -5,18 +5,20 @@ Analyst: Stan Misina <br /> <i>IDE: RStudio Version 1.4.1717 <br /> R: Version 4
 Data Provided: <br /> <i>MechaCar_mpg.csv <br /> Suspension_Coil.csv</i><br />
 
 --- 
-# OVERVIEW
-AutosRUS is reviewing some statistical data points in the manufacturing production process to look for more consistency and identify improvement opportunities. Analysts have been tasked to:
+# Overview
+AutosRUS is reviewing statistical data points in the manufacturing process to find opportunities where higher consistency. Analysts have been tasked to:
   - review data points gathered from prototype vehicles to determine predictable MPG
-  - provide summary status for suspension coil manufacturing processes in whole and by individual manufacturing locations
-  - using T-Test models, provide insight to consistancy in finished production of this part
-  - propose testing to futher compare MechaCars against competitive manufacturers for marketing and the company's research & development
+  - provide summary statistics for suspension coil manufacturing in whole and by individual manufacturing locations
+  - using T-Test models, provide insight to consistancy measures for this finished part
+  - propose a study to futher compare MechaCar against competitive manufacturers
 
 ## Linear Regression to Predict MPG
 
 <img src="static/resources/multi-linear.png" alt="Multi Linear Regression" width="600"/> <br /> 
 
-- This is a multi-linear regression model on six data points of 50 prototype vehicles. Found significant correlation of vehicle length and ground clearance to effect MPG. There is minor correlation to MPG with vehicle weight as well; however, it does not fall within standard tolerance to be considered a consequential contributor at this time.
+- This is a multi-linear regression model on six data points of 50 prototype vehicles. Found significant correlation of <i>vehicle length</i> and <i>ground clearance</i> to effect MPG. There is minor correlation to MPG with vehicle weight as well; however, it does not fall within tolerance to be considered a consequential contributor at this time. There is a high correlation with the overall MPG coefficient in the intercept vector to conclude there are other data points not present.
+- The slope of this model cannot be considered to be zero, due to an extremely small p-value as shown in the results. This determines that the null hypothesis should not be considered.
+- Analysis suggests the results above, and an r-sqared of better than 71%, this model will provide effective MPG predictions of MechaCar prototypes.
 <br />  
   
 ## Summary Statistics on Suspension Coils
