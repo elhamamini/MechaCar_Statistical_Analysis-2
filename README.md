@@ -11,18 +11,18 @@ Suspension_Coil.csv<br />
 ## Linear Regression to Predict MPG
 
 <img src="static/resources/multi-linear.png" alt="Multi Linear Regression" width="600"/> <br />
-- This is a multi-linear regression model based on data representing 50 test vehicles over six data points. Found significant correlation of vehicle length and ground clearance to effect MPG. There is minor correlation to MPG with vehicle weight as well; however, it does not fall within standard tolerance to be considered an important contributor at this time. <br />
+- This is a multi-linear regression model based on data representing 50 test vehicles over six data points. Found significant correlation of vehicle length and ground clearance to effect MPG. There is minor correlation to MPG with vehicle weight as well; however, it does not fall within standard tolerance to be considered a consequential contributor at this time. <br />
 
 ## Summary Statistics on Suspension Coils
 
 <img src="static/resources/coil_analysis.png" alt="Multi Linear Regression" width="600"/> <br />
 - Grouped total summary of the median, mean, variance, and standard deviation for suspension coil manufacture. The consistency results of the three individual lots are broken out for individual review. 
 <br />
-Lot 1 has performed strongest of the three locations. Consistency not seen in either of the other plants and the shallowest variances. 
+- Lot 1 has performed strongest of the three locations. Consistency not seen in either of the other plants and the shallowest variances. 
 <br />
-Lot 2 shows good mean and median; however their variances are suspect. This means that looking at the entire population of parts is not sufficient. The individual pieces are not consistent.<br />
-
-Lot 3 has not met any of company standard toleration in manufacturing this part. Inspection of processes, personnel, machinery, and tools is recommended.<br />
+- Lot 2 shows good mean and median; however their variances are suspect. This means that looking at the entire population of parts is not sufficient. The individual pieces are not consistent.
+<br />
+- Lot 3 has not met any of company standard toleration in manufacturing this part. Inspection of processes, personnel, machinery, and tools is recommended.<br />
 
 ## T-Tests on Suspension Coils
 
