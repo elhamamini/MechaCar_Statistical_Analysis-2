@@ -11,7 +11,7 @@ Data Provided: <br /> <i>MechaCar_mpg.csv <br /> Suspension_Coil.csv</i><br />
 
 - This is a multi-linear regression model based on data representing 50 test vehicles over six data points. Found significant correlation of vehicle length and ground clearance to effect MPG. There is minor correlation to MPG with vehicle weight as well; however, it does not fall within standard tolerance to be considered a consequential contributor at this time. <br />
 
----
+
 ## Summary Statistics on Suspension Coils
 
 <img src="static/resources/coil_analysis.png" alt="Multi Linear Regression" width="600"/> <br />
@@ -34,8 +34,10 @@ Data Provided: <br /> <i>MechaCar_mpg.csv <br /> Suspension_Coil.csv</i><br />
 
 <img src="static/resources/ttest_lot3.png" alt="Summary Statistics on Suspension Coils Lot 3" width="600"/> <br />
   
-<br /> 
+<br /> </b>
+
 ___
+
 ## Study Design: MechaCar vs Competition
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. In your description, address the following questions: - What metric or metrics are you going to test? - What is the null hypothesis or alternative hypothesis? - What statistical test would you use to test the hypothesis? And why? - What data is needed to run the statistical test?
