@@ -25,13 +25,13 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
 - When looked at as a whole, variance is within the 100 psi as per company policy. This is misleading as Lot 3 is well out of range with a variance of 170+. This is obviously well out of tolerance and thus the single greatest contributor to negative drag on overall performance.<br />
 
 ## T-Tests on Suspension Coils 
--   **Overall** manufacturing suspension coils manufacturing shows that not statistically different from the population mean. P-value is within tolerance to reject  null hypothesis.
+-   **Overall** manufacturing suspension coils manufacturing shows that not statistically different from the population mean. P-value is within tolerance to reject  null hypothesis.<br />
 <img src="static/resources/ttest_all.png" alt="Summary Statistics on Suspension Coils" width="450"/><br /><br />
 -   **Lot 1** has performed strongest of the three locations. Consistency not seen in either of the other plants and the shallowest variances. Due to this, the null hypothesis is not rejected.<br />
 <img src="static/resources/ttest_lot1.png" alt="Summary Statistics on Suspension Coils Lot 1" width="600"/> <br />
 -   **Lot 2** shows good mean and median results; however, variances are suspect. Weighing p-value and variance, null hypothesis is not rejected, however it is recommended for the location to collaborate with Lot 1 who is performing at a higher level of consistency.<br />
 <img src="static/resources/ttest_lot2.png" alt="Summary Statistics on Suspension Coils Lot 2" width="600"/> <br />
--   **Lot 3** has not met company standard toleration in manufacturing this part. Inspection of processes, personnel, machinery, and tools is recommended. This location's metrics have certainly changed the performance of the entire company negatively.  <br />
+-   **Lot 3** has not met company standard tolerance in manufacturing this part. Inspection of processes, personnel, machinery, and tools is recommended. This location's metrics have certainly changed company performance negatively.  <br />
 <img src="static/resources/ttest_lot3.png" alt="Summary Statistics on Suspension Coils Lot 3" width="600"/> <br />
 <br />
 
