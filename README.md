@@ -4,7 +4,14 @@ Analyst: Stan Misina <br /> <i>IDE: RStudio Version 1.4.1717 <br /> R: Version 4
 
 Data Provided: <br /> <i>MechaCar_mpg.csv <br /> Suspension_Coil.csv</i><br />
 
-___  
+--- 
+# OVERVIEW
+AutosRUS is reviewing some statistical data points in the manufacturing production process to look for more consistency and identify improvement opportunities. Analysts have been tasked to:
+  - review data points gathered from prototype vehicles to determine predictable MPG
+  - provide summary status for suspension coil manufacturing processes in whole and by individual manufacturing locations
+  - using T-Test models, provide insight to consistancy in finished production of this part
+  - propose testing to futher compare MechaCars against competitive manufacturers for marketing and the company's research & development
+
 ## Linear Regression to Predict MPG
 
 <img src="static/resources/multi-linear.png" alt="Multi Linear Regression" width="600"/> <br /> 
