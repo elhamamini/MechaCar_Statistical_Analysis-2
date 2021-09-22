@@ -21,16 +21,16 @@ Data Provided: <br /> <i>MechaCar_mpg.csv <br /> Suspension_Coil.csv</i><br />
 -   Lot 2 shows good mean and median results; however, their variances are suspect. Considering the entire population of parts is not sufficient to ascertain performance. The individual pieces are not consistent.
 -   Lot 3 has not met any of company standard toleration in manufacturing this part. Inspection of processes, personnel, machinery, and tools is recommended. This location's metrics have certainly changed the performance of the entire company negatively.<br />
 <br />
----
+--- <br />
 ## T-Tests on Suspension Coils
-<img src="static/resources/ttest_all.png" alt="Summary Statistics on Suspension Coils" width="600"/> <br />
----
+<img src="static/resources/ttest_all.png" alt="Summary Statistics on Suspension Coils" width="400"/> <br />
+---  <br />
 <img src="static/resources/ttest_lot1.png" alt="Summary Statistics on Suspension Coils Lot 1" width="600"/> <br />
----
+---  <br />
 <img src="static/resources/ttest_lot2.png" alt="Summary Statistics on Suspension Coils Lot 2" width="600"/> <br />
----
+---  <br />
 <img src="static/resources/ttest_lot3.png" alt="Summary Statistics on Suspension Coils Lot 3" width="600"/> <br />
----
+---  <br />
 
 
 ## Study Design: MechaCar vs Competition
