@@ -25,7 +25,7 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
 - When looked at as a whole, variance is within the 100 psi as per company policy. This is misleading as Lot 3 is well out of range with a variance of 170+; thus the single greatest contributor to negative drag on overall performance.<br />
 
 ## T-Tests on Suspension Coils 
--   **Overall** manufacturing suspension coils manufacturing shows that not statistically different from the population mean. P-value is within tolerance to reject  null hypothesis.<br />
+-   **Overall** manufacturing suspension coils manufacturing are not statistically different from the population mean. P-value is within tolerance to reject  null hypothesis.<br />
 <img src="static/resources/ttest_all.png" alt="Summary Statistics on Suspension Coils" width="450"/><br /><br />
 -   **Lot 1** has performed strongest of the three locations. Consistency not seen in either of the other plants and the shallowest variances. Due to this, the null hypothesis is not rejected.<br />
 <img src="static/resources/ttest_lot1.png" alt="Summary Statistics on Suspension Coils Lot 1" width="600"/> <br />
@@ -36,6 +36,8 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
 <br />
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. In your description, address the following questions: - What metric or metrics are you going to test? - What is the null hypothesis or alternative hypothesis? - What statistical test would you use to test the hypothesis? And why? - What data is needed to run the statistical test?
+Now that there has been a good review of MechaCar's manufacturing of suspension coils, there's opportunity to parlay this into the value of how MechaCar "rides" versus our competition. In the current environment, longevity, value, and cost are very important to the car buying population.
 
-The statistical study design has the following: A metric to be tested is mentioned (5 pt) A null hypothesis or an alternative hypothesis is described (5 pt) A statistical test is described to test the hypothesis (5 pt) The data for the statistical test is described (5 pt)
+Points of data to capture will be degree of vehicle sway when cornering, measuring front end 'dip' when hard braking, monitoring amount of bounce when stopping suddenly, determine amount of bounce and slide on unpaved and gravel roads, and vibrations of the steering wheel.
+
+The null hypothesis is there is no difference between MechaCar and a competitor's "ride." ANOVA test is recommended to categorically determine statistical difference between multiple samples.
