@@ -2,7 +2,7 @@
 
 Analyst: Stan Misina <br /> <i>IDE: RStudio Version 1.4.1717 <br /> R: Version 4.1.1</i>
 
-Data Provided: <br /> <i>MechaCar_mpg.csv <br /> Suspension_Coil.csv</i><br />
+Data Provided: <br />&nbsp;&nbsp;&nbsp;&nbsp; <i>MechaCar_mpg.csv <br />&nbsp;&nbsp;&nbsp;&nbsp; Suspension_Coil.csv</i><br />
 
 --- 
 
