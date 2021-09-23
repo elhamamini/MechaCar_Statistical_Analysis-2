@@ -36,7 +36,7 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
 <br />
 
 ## Study Design: MechaCar vs Competition
-Now that there has been a good review of MechaCar's manufacturing of suspension coils, there's opportunity to parlay this into the value of how MechaCar "rides" versus our competition. In the current environment, longevity, value, and cost are very important to the car buying population.
+Now that there has been a good review of MechaCar's manufacturing of suspension coils, there's opportunity to parlay this into the value of how MechaCar "rides" versus the competition. In the current environment, longevity, value, and cost are very important to the car buying population.
 
 Points of data to capture will be degree of vehicle sway when cornering, measuring front end 'dip' when hard braking, monitoring amount of bounce when stopping suddenly, determine amount of bounce and slide on unpaved and gravel roads, and vibrations of the steering wheel.
 
