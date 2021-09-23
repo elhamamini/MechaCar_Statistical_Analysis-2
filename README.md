@@ -27,7 +27,7 @@ AutosRUS is reviewing statistical data points in the manufacturing process to fi
 <br />
 
 ## T-Tests on Suspension Coils 
--   **Overall** manufacturing suspension coils manufacturing are not statistically different from the population mean. P-value is within tolerance to reject  null hypothesis.<br />
+-   **Overall** The T-test results for the suspension coils across all manufacturing plants show they are not statistically different from the population mean, and the p-value is not low enough to reject the null hypothesis.<br />
 <img src="static/resources/ttest_all.png" alt="Summary Statistics on Suspension Coils" width="450"/><br /><br />
 -   **Lot 1** has performed strongest of the three locations. Consistency not seen in either of the other plants and the shallowest variances. Due to this, the null hypothesis is not rejected.<br />
 <img src="static/resources/ttest_lot1.png" alt="Summary Statistics on Suspension Coils Lot 1" width="600"/> <br />
