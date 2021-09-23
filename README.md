@@ -10,7 +10,7 @@ Data Provided: <br />&nbsp;&nbsp;&nbsp;&nbsp; <i>MechaCar_mpg.csv <br />&nbsp;&n
 AutosRUS is reviewing statistical data points of the manufacturing process to find opportunities for higher consistency. Analysts have been tasked to:
   - review data points gathered from prototype vehicles to determine predictable MPG
   - provide summary statistics for suspension coil manufacturing in whole and by individual manufacturing locations
-  - using T-Test models, provide insight to consistancy measures for this finished part
+  - use T-Test models, providing insight to consistancy measures for this finished part
   - propose a study to futher compare MechaCar against competitive manufacturers
 <br />
 
@@ -26,11 +26,11 @@ AutosRUS is reviewing statistical data points of the manufacturing process to fi
 ## Summary Statistics on Suspension Coils
 <img src="static/resources/coil_analysis.png" alt="Multi Linear Regression" width="600"/> <br />
 - Data points provided in <code>Suspension_Coil.csv</code>
-- When reviewed at as a whole, variance is within the 100 psi as set by company policy. This is misleading as Lot 3 is well out of range with a variance of 170+; thus the single greatest contributor to negative drag on overall performance.
+- When reviewed as a whole, variance is within 100 psi, as set by company policy. This is misleading as Lot 3 is well out of range with a variance of 170+; thus the single greatest contributor to negative drag on overall performance.
 <br />
 
 ## T-Tests on Suspension Coils 
--   **Overall** The T-test results for the suspension coils across all manufacturing plants show they are not statistically different from the population mean, and the p-value is not low enough to reject the null hypothesis.<br />
+-   **Overall** T-test results for the suspension coils across all manufacturing plants show they are not statistically different from the population mean, and the p-value is not low enough to reject the null hypothesis.<br />
 <img src="static/resources/ttest_all.png" alt="Summary Statistics on Suspension Coils" width="450"/><br /><br />
 -   **Lot 1** has performed strongest of the three locations. Consistency not seen in either of the other plants and the shallowest variances. Due to this, the null hypothesis is not rejected.<br />
 <img src="static/resources/ttest_lot1.png" alt="Summary Statistics on Suspension Coils Lot 1" width="600"/> <br />
