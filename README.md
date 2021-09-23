@@ -7,7 +7,7 @@ Data Provided: <br />&nbsp;&nbsp;&nbsp;&nbsp; <i>MechaCar_mpg.csv <br />&nbsp;&n
 --- 
 
 # Overview
-AutosRUS is reviewing statistical data points in the manufacturing process to find opportunities for higher consistency. Analysts have been tasked to:
+AutosRUS is reviewing statistical data points of the manufacturing process to find opportunities for higher consistency. Analysts have been tasked to:
   - review data points gathered from prototype vehicles to determine predictable MPG
   - provide summary statistics for suspension coil manufacturing in whole and by individual manufacturing locations
   - using T-Test models, provide insight to consistancy measures for this finished part
