@@ -1,6 +1,6 @@
 # MechaCar Statistical Analysis
 
-Analyst: Stan Misina <br />&nbsp;&nbsp;&nbsp;&nbsp;<i>IDE: RStudio Version 1.4.1717 <br /> &nbsp;&nbsp;&nbsp;&nbsp;R: Version 4.1.1</i>
+<br />&nbsp;&nbsp;&nbsp;&nbsp;<i>IDE: RStudio Version 1.4.1717 <br /> &nbsp;&nbsp;&nbsp;&nbsp;R: Version 4.1.1</i>
 
 Data Provided: <br />&nbsp;&nbsp;&nbsp;&nbsp; <i>MechaCar_mpg.csv <br />&nbsp;&nbsp;&nbsp;&nbsp; Suspension_Coil.csv</i><br />
 
